@@ -30,5 +30,6 @@ namespace KeyChanger
 		public static Key Hallowed = new Key("hallowed", KeyTypes.Hallowed, Config.contents.EnableHallowedKey);
 		public static Key Frozen = new Key("frozen", KeyTypes.Frozen, Config.contents.EnableFrozenKey);
 		public static Key Golden = new Key("golden", KeyTypes.Golden, Config.contents.EnableGoldenKey);
+		public static Key Shadow = new Key("shadow", KeyTypes.Shadow, Config.contents.EnableShadowKey);
 	}
 }
