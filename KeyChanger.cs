@@ -134,6 +134,10 @@ namespace KeyChanger
 							key = Key.Hallowed;
 						else if (str == Key.Frozen.Name)
 							key = Key.Frozen;
+						else if (str == Key.Golden.Name)
+							key = Key.Golden;
+						else if (str == Key.Shadow.Name)
+							key = Key.Shadow;	
 						else
 						{
 							ply.SendErrorMessage("Invalid key type! Available types: " + string.Join(", ",
@@ -142,6 +146,8 @@ namespace KeyChanger
 								Key.Corruption.Enabled ? Key.Corruption.Name : null,
 								Key.Crimson.Enabled ? Key.Crimson.Name : null,
 								Key.Hallowed.Enabled ? Key.Hallowed.Name : null,
+								Key.Golden.Enabled ? Key.Golden.Name : null,
+								Key.Shadow.Enabled ? Key.Shadow.Name : null,
 								Key.Frozen.Enabled ? Key.Frozen.Name : null));
 							return;
 						}
@@ -239,6 +245,8 @@ namespace KeyChanger
 							ply.SendMessage("Crimson Key - " + string.Join(", ", Key.Crimson.Items.Select(i => i.name)), Color.Goldenrod);
 							ply.SendMessage("Hallowed Key - " + string.Join(", ", Key.Hallowed.Items.Select(i => i.name)), Color.Goldenrod);
 							ply.SendMessage("Frozen Key - " + string.Join(", ", Key.Frozen.Items.Select(i => i.name)), Color.Goldenrod);
+							ply.SendMessage("Golden Key - " + string.Join(", ", Key.Golden.Items.Select(i => i.name)), Color.Goldenrod);
+							ply.SendMessage("Shadow Key - " + string.Join(", ", Key.Shadow.Items.Select(i => i.name)), Color.Goldenrod);
 							break;
 						}
 
