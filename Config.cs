@@ -25,6 +25,8 @@ namespace KeyChanger
 			public bool EnableCrimsonKey = true;
 			public bool EnableHallowedKey = true;
 			public bool EnableFrozenKey = true;
+			public bool EnableGoldenKey = true;
+			public bool EnableShadowKey = true;
 
 			public int[] TempleKeyItem = new int[] { 1293 };                // |Lihzahrd Power Cell
 			public int[] JungleKeyItem = new int[] { 1156 };                // |Piranha Gun
@@ -32,6 +34,8 @@ namespace KeyChanger
 			public int[] CrimsonKeyItem = new int[] { 1569 };               // |Vampire Knifes
 			public int[] HallowedKeyItem = new int[] { 1260 };              // |Rainbow Gun
 			public int[] FrozenKeyItem = new int[] { 1572 };                // |Frost Hydra Staff
+			public int[] GoldenKeyItem = new int[] { 1 }; 
+			public int[] ShadowKeyItem = new int[] { 2 };                
 
 			// Those are optional; They're only needed if EnableRegionExchanges is set to true. Default is set to null,
 			// so that players can be informed of non-existing regions.
@@ -42,6 +46,8 @@ namespace KeyChanger
 			public string CrimsonRegion = null;
 			public string HallowedRegion = null;
 			public string FrozenRegion = null;
+			public string GoldenRegion = null;
+			public string ShadowRegion = null;
 		}
 		#endregion
 
