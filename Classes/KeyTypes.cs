@@ -13,5 +13,7 @@ namespace KeyChanger
 		Crimson = Terraria.ID.ItemID.CrimsonKey,
 		Hallowed = Terraria.ID.ItemID.HallowedKey,
 		Frozen = Terraria.ID.ItemID.FrozenKey
+		Golden = Terraria.ID.ItemID.GoldenKey
+		Shadow = Terraria.ID.ItemID.ShadowKey
 	}
 }
